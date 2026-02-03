@@ -45,16 +45,16 @@ S-p = "paste_clipboard_after"
 S-left = "move_prev_word_start"
 S-right = "move_next_word_start"
 Meta-left = "goto_line_start"
-Meta-right ="goto_line_end"
+Meta-right ="goto_line_end_newline"
 
 [keys.insert]
 S-left = "move_prev_word_start"
 S-right = "move_next_word_start"
 Meta-left = "goto_line_start"
-Meta-right = "goto_line_end"
+Meta-right = "goto_line_end_newline"
 
 [keys.select]
 S-left = "move_prev_word_start"
 S-right = "move_next_word_start"
 Meta-left = "goto_line_start"
-Meta-right = "goto_line_end"
+Meta-right = "goto_line_end_newline"
