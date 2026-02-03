@@ -1,0 +1,14 @@
+font-family = "Cascadia Mono PL"
+font-family = "Noto Sans Mono CJK JP"
+font-size = 14
+theme = "Atom One Dark"
+cursor-style = "bar"
+mouse-hide-while-typing = true
+background-opacity = 0.9
+background-blur = true
+window-padding-x = 10
+window-inherit-working-directory = false
+window-width = 120
+window-height = 40
+window-step-resize = true
+macos-icon = "xray"
