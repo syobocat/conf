@@ -1,0 +1,39 @@
+theme = "onedark"
+
+[editor]
+cursorline = true
+preview-completion-insert = false
+completion-trigger-len = 1
+trim-final-newlines = true
+trim-trailing-whitespace = true
+end-of-line-diagnostics = "hint"
+
+[editor.statusline]
+left = ["spinner", "mode", "file-name", "read-only-indicator", "file-modification-indicator"]
+center = ["diagnostics"]
+right = ["position", "primary-selection-length", "file-type", "file-line-ending", "file-encoding"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-progress-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.whitespace.render]
+nbsp = "all"
+nnbsp = "all"
+tab = "all"
+
+[editor.indent-guides]
+render = true
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = ""
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
