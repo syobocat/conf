@@ -12,3 +12,8 @@ window-width = 120
 window-height = 40
 window-step-resize = true
 macos-icon = "xray"
+
+keybind = alt+arrow_left=unbind
+keybind = alt+arrow_right=unbind
+keybind = super+arrow_left=unbind
+keybind = super+arrow_right=unbind
