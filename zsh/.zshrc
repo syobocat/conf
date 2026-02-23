@@ -195,7 +195,7 @@ setopt NO_MULTI_FUNC_DEF
 setopt MULTIOS
 setopt NO_OCTAL_ZEROES
 setopt PIPE_FAIL # 変えるかも
-setopt SOURCE_TRACE # 変えるかも
+setopt NO_SOURCE_TRACE
 setopt NO_TYPESET_SILENT
 setopt NO_TYPESET_TO_UNSET
 setopt NO_VERBOSE
