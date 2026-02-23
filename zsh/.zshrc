@@ -8,6 +8,8 @@ path+=(
   "${HOME}/.cargo/bin"
 )
 
+export EDITOR=hx
+
 bindkey -d
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
