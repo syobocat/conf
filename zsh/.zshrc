@@ -10,6 +10,8 @@ path+=(
 
 export EDITOR=hx
 
+alias -s wasm=wasmtime
+
 bindkey -d
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
