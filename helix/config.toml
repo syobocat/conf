@@ -2,6 +2,7 @@ theme = "onedark"
 
 [editor]
 cursorline = true
+continue-comments = false
 preview-completion-insert = false
 completion-trigger-len = 1
 trim-final-newlines = true
