@@ -17,6 +17,7 @@ bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 bindkey "^[[1;9D" beginning-of-line
 bindkey "^[[1;9C" end-of-line
+bindkey "^[[3~" delete-char
 
 autoload -U compinit; compinit
 zstyle ':completion:*' completer _extensions _complete _approximate _prefix
