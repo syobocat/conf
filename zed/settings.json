@@ -1,0 +1,70 @@
+{
+  "completions": {
+    "words": "disabled",
+  },
+  "soft_wrap": "editor_width",
+  "collaboration_panel": {
+    "button": false,
+  },
+  "git_panel": {
+    "button": false,
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+  },
+  "search": {
+    "button": false,
+    "center_on_match": true,
+  },
+  "use_smartcase_search": true,
+  "extend_comment_on_newline": false,
+  "message_editor": {
+    "auto_replace_emoji_shortcode": false,
+  },
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "git_status_indicator": true,
+    "diagnostic_badges": true,
+    "default_width": 300.0,
+    "dock": "left",
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "indent_guides": {
+    "coloring": "indent_aware",
+  },
+  "vim": {
+    "cursor_shape": {
+      "visual": "underline",
+    },
+    "use_system_clipboard": "on_yank",
+  },
+  "minimap": {
+    "show": "always",
+  },
+  "disable_ai": true,
+  "base_keymap": "VSCode",
+  "helix_mode": true,
+  "buffer_font_family": "Cascadia Mono",
+  "buffer_line_height": "standard",
+  "ui_font_family": "Cascadia Mono",
+  "restore_on_startup": "empty_tab",
+  "session": {
+    "restore_unsaved_buffers": false,
+  },
+  "cli_default_open_behavior": "new_window",
+  "on_last_window_closed": "quit_app",
+  "when_closing_with_no_tabs": "keep_window_open",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "icon_theme": "Zed (Default)",
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": "One Dark",
+}
